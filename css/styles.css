@@ -536,6 +536,57 @@ header {
     width: 36rem;
     height: 20rem;
   }
+
+  .background-img {
+    background-position-x: -253px !important;
+    background-position-y: 0;
+  }
+
+  .construction {
+    height: 671px !important;
+    background-position-x: -80px;
+  }
+
+  .feature-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 768px){
+  .background-img {
+    background-position-x: -146px !important;
+    background-position-y: 0;
+  }
+
+  .construction {
+    height: 671px !important;
+    background-position-x: -80px;
+  }
+
+  .feature-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -543,6 +594,7 @@ header {
     width: 25rem;
     height: 15rem;
   }
+
 }
 
 @media (max-width: 991.5px) {
@@ -1009,6 +1061,8 @@ background: #343a40;
   .screen-body-item {
     padding: 0;
   }
+
+  
 }
 
 /* Scrollbar Styles */
